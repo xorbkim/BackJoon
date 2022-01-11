@@ -8,16 +8,13 @@ public class B2798 {
         딜러: N장의 카드를 숫자가 보이게, 숫자M을 외친다
         플레이어: N장의 카드중 3장의 카드를 고른다
                 n1+n2+n3<M, M과 최대한 가깝게
-
         N장의 카드
         M을 넘지 않으면서
         M에 최대한 가까운 카드 3장의 합을 출력
-
         N에서 3개를 고르는 경우 탐색
         각 경우 카드합 < M (max)
        */
         Scanner sc = new Scanner(System.in);
-
         int N = sc.nextInt();
         int M = sc.nextInt();
 
